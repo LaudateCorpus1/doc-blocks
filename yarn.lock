@@ -1730,34 +1730,35 @@
   integrity sha512-6nFkfkmSeV/rqSaS4oWHgmpnYw194f6hmWF5is6b0J1naJZoiD0NTc9AiUwPHvWsowkjuHErCZT1wa0jg+BLIA==
 
 "@doc-blocks/accessibility@link:components/Accessibility":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@doc-blocks/shield" "link:components/Shield"
     emotion "^10.0.27"
 
 "@doc-blocks/accordion@link:components/Accordion":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "7.11.2"
     "@emotion/react" "11.4.1"
+    styled-components "5.3.0"
 
 "@doc-blocks/bundle-size@link:components/BundleSize":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@doc-blocks/shield" "link:components/Shield"
     emotion "^10.0.27"
 
 "@doc-blocks/design-spec@link:components/DesignSpec":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@doc-blocks/shield" "link:components/Shield"
     emotion "^10.0.27"
 
 "@doc-blocks/gallery@link:components/Gallery":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "7.11.2"
     "@doc-blocks/design-spec" "link:components/DesignSpec"
@@ -1768,7 +1769,7 @@
     use-isomorphic-layout-effect "1.0.0"
 
 "@doc-blocks/guideline@link:components/Guideline":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@design-systems/utils" "2.17.5"
@@ -1776,14 +1777,14 @@
     emotion "^10.0.27"
 
 "@doc-blocks/intended-usage@link:components/IntendedUsage":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@design-systems/utils" "2.17.5"
     emotion "^10.0.27"
 
 "@doc-blocks/related-components@link:components/RelatedComponents":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@emotion/core" "^10.0.28"
@@ -1791,7 +1792,7 @@
     emotion "^10.0.27"
 
 "@doc-blocks/responsive-story@link:components/ResponsiveStory":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@design-systems/utils" "2.17.5"
@@ -1801,34 +1802,34 @@
     emotion "^10.0.27"
 
 "@doc-blocks/row@link:components/Row":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@design-systems/utils" "2.17.5"
     emotion "^10.0.27"
 
 "@doc-blocks/shield-row@link:components/ShieldRow":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@design-systems/utils" "2.17.5"
     emotion "^10.0.27"
 
 "@doc-blocks/shield@link:components/Shield":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     emotion "^10.0.27"
 
 "@doc-blocks/tabs@link:components/Tabs":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "7.11.2"
     "@emotion/react" "11.4.0"
     styled-components "5.3.0"
 
 "@doc-blocks/version@link:components/Version":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@doc-blocks/shield" "link:components/Shield"
@@ -10150,9 +10151,9 @@ events@^3.0.0:
   integrity sha512-mQw+2fkQbALzQ7V0MY0IqdnXNOeTtP4r0lN9z7AAawCXgqea7bDii20AYrIBrFd/Hx0M2Ocz6S111CaFkUcb0Q==
 
 eventsource@^1.0.7:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/eventsource/-/eventsource-1.1.0.tgz#00e8ca7c92109e94b0ddf32dac677d841028cfaf"
-  integrity sha512-VSJjT5oCNrFvCS6igjzPAt5hBzQ2qPBFIbJ03zLI9SE0mxwZpMw6BfJrbFHm1a141AavMEB8JHmBhWAd66PfCg==
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/eventsource/-/eventsource-1.1.1.tgz#4544a35a57d7120fba4fa4c86cb4023b2c09df2f"
+  integrity sha512-qV5ZC0h7jYIAOhArFJgSfdyz6rALJyb270714o7ZtNnw2WSJ+eexhKtE0O8LYPRsHZHf2osHKZBxGPvm3kPkCA==
   dependencies:
     original "^1.0.0"
 
@@ -21273,7 +21274,15 @@ url-parse@1.4.7:
     querystringify "^2.1.1"
     requires-port "^1.0.0"
 
-url-parse@^1.4.3, url-parse@^1.5.3:
+url-parse@^1.4.3:
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.10.tgz#9d3c2f736c1d75dd3bd2be507dcc111f1e2ea9c1"
+  integrity sha512-WypcfiRhfeUP9vvF0j6rw0J3hrWrw6iZv3+22h6iRMJ/8z1Tj6XfLP4DsUix5MhMPnXpiHDoKyoZ/bdCkwBCiQ==
+  dependencies:
+    querystringify "^2.1.1"
+    requires-port "^1.0.0"
+
+url-parse@^1.5.3:
   version "1.5.3"
   resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.3.tgz#71c1303d38fb6639ade183c2992c8cc0686df862"
   integrity sha512-IIORyIQD9rvj0A4CLWsHkBBJuNqWpFQe224b6j9t/ABmquIS0qDU2pY6kl6AuOrL5OkCXHMCFNe1jBcuAggjvQ==
