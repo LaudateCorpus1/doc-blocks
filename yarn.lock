@@ -1730,34 +1730,35 @@
   integrity sha512-6nFkfkmSeV/rqSaS4oWHgmpnYw194f6hmWF5is6b0J1naJZoiD0NTc9AiUwPHvWsowkjuHErCZT1wa0jg+BLIA==
 
 "@doc-blocks/accessibility@link:components/Accessibility":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@doc-blocks/shield" "link:components/Shield"
     emotion "^10.0.27"
 
 "@doc-blocks/accordion@link:components/Accordion":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "7.11.2"
     "@emotion/react" "11.4.1"
+    styled-components "5.3.0"
 
 "@doc-blocks/bundle-size@link:components/BundleSize":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@doc-blocks/shield" "link:components/Shield"
     emotion "^10.0.27"
 
 "@doc-blocks/design-spec@link:components/DesignSpec":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@doc-blocks/shield" "link:components/Shield"
     emotion "^10.0.27"
 
 "@doc-blocks/gallery@link:components/Gallery":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "7.11.2"
     "@doc-blocks/design-spec" "link:components/DesignSpec"
@@ -1768,7 +1769,7 @@
     use-isomorphic-layout-effect "1.0.0"
 
 "@doc-blocks/guideline@link:components/Guideline":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@design-systems/utils" "2.17.5"
@@ -1776,14 +1777,14 @@
     emotion "^10.0.27"
 
 "@doc-blocks/intended-usage@link:components/IntendedUsage":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@design-systems/utils" "2.17.5"
     emotion "^10.0.27"
 
 "@doc-blocks/related-components@link:components/RelatedComponents":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@emotion/core" "^10.0.28"
@@ -1791,7 +1792,7 @@
     emotion "^10.0.27"
 
 "@doc-blocks/responsive-story@link:components/ResponsiveStory":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@design-systems/utils" "2.17.5"
@@ -1801,34 +1802,34 @@
     emotion "^10.0.27"
 
 "@doc-blocks/row@link:components/Row":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@design-systems/utils" "2.17.5"
     emotion "^10.0.27"
 
 "@doc-blocks/shield-row@link:components/ShieldRow":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@design-systems/utils" "2.17.5"
     emotion "^10.0.27"
 
 "@doc-blocks/shield@link:components/Shield":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     emotion "^10.0.27"
 
 "@doc-blocks/tabs@link:components/Tabs":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "7.11.2"
     "@emotion/react" "11.4.0"
     styled-components "5.3.0"
 
 "@doc-blocks/version@link:components/Version":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@doc-blocks/shield" "link:components/Shield"
@@ -19386,9 +19387,9 @@ source-map-resolve@^0.6.0:
     decode-uri-component "^0.2.0"
 
 source-map-support@^0.5.16, source-map-support@^0.5.6, source-map-support@~0.5.12, source-map-support@~0.5.20:
-  version "0.5.20"
-  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.20.tgz#12166089f8f5e5e8c56926b377633392dd2cb6c9"
-  integrity sha512-n1lZZ8Ve4ksRqizaBQgxXDgKwttHDhyfQjA6YZZn8+AroHbsIz+JjwxQDxbp+7y5OYCI8t1Yk7etjD9CRd2hIw==
+  version "0.5.21"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.21.tgz#04fe7c7f9e1ed2d662233c28cb2b35b9f63f6e4f"
+  integrity sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==
   dependencies:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
@@ -20486,9 +20487,9 @@ terser-webpack-plugin@^4.2.3:
     webpack-sources "^1.4.3"
 
 terser@^4.1.2, terser@^4.6.3, terser@^4.8.0:
-  version "4.8.0"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-4.8.0.tgz#63056343d7c70bb29f3af665865a46fe03a0df17"
-  integrity sha512-EAPipTNeWsb/3wLPeup1tVPaXfIaU68xMnVdPafIL1TV05OhASArYyIfFvnvJCNrR2NIOvDVNNTFRa+Re2MWyw==
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-4.8.1.tgz#a00e5634562de2239fd404c649051bf6fc21144f"
+  integrity sha512-4GnLC0x667eJG0ewJTa6z/yXrbLGv80D9Ru6HIpCQmO+Q4PfEtBFi0ObSckqwL6VyQv/7ENJieXHo2ANmdQwgw==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
