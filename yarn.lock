@@ -1730,34 +1730,35 @@
   integrity sha512-6nFkfkmSeV/rqSaS4oWHgmpnYw194f6hmWF5is6b0J1naJZoiD0NTc9AiUwPHvWsowkjuHErCZT1wa0jg+BLIA==
 
 "@doc-blocks/accessibility@link:components/Accessibility":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@doc-blocks/shield" "link:components/Shield"
     emotion "^10.0.27"
 
 "@doc-blocks/accordion@link:components/Accordion":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "7.11.2"
     "@emotion/react" "11.4.1"
+    styled-components "5.3.0"
 
 "@doc-blocks/bundle-size@link:components/BundleSize":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@doc-blocks/shield" "link:components/Shield"
     emotion "^10.0.27"
 
 "@doc-blocks/design-spec@link:components/DesignSpec":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@doc-blocks/shield" "link:components/Shield"
     emotion "^10.0.27"
 
 "@doc-blocks/gallery@link:components/Gallery":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "7.11.2"
     "@doc-blocks/design-spec" "link:components/DesignSpec"
@@ -1768,7 +1769,7 @@
     use-isomorphic-layout-effect "1.0.0"
 
 "@doc-blocks/guideline@link:components/Guideline":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@design-systems/utils" "2.17.5"
@@ -1776,14 +1777,14 @@
     emotion "^10.0.27"
 
 "@doc-blocks/intended-usage@link:components/IntendedUsage":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@design-systems/utils" "2.17.5"
     emotion "^10.0.27"
 
 "@doc-blocks/related-components@link:components/RelatedComponents":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@emotion/core" "^10.0.28"
@@ -1791,7 +1792,7 @@
     emotion "^10.0.27"
 
 "@doc-blocks/responsive-story@link:components/ResponsiveStory":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@design-systems/utils" "2.17.5"
@@ -1801,34 +1802,34 @@
     emotion "^10.0.27"
 
 "@doc-blocks/row@link:components/Row":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@design-systems/utils" "2.17.5"
     emotion "^10.0.27"
 
 "@doc-blocks/shield-row@link:components/ShieldRow":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@design-systems/utils" "2.17.5"
     emotion "^10.0.27"
 
 "@doc-blocks/shield@link:components/Shield":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     emotion "^10.0.27"
 
 "@doc-blocks/tabs@link:components/Tabs":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "7.11.2"
     "@emotion/react" "11.4.0"
     styled-components "5.3.0"
 
 "@doc-blocks/version@link:components/Version":
-  version "0.8.9"
+  version "0.8.12"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@doc-blocks/shield" "link:components/Shield"
@@ -6254,9 +6255,9 @@ async-limiter@~1.0.0:
   integrity sha512-csOlWGAcRFJaI6m+F2WKdnMKr4HhdhFVBk0H/QbJFMCr+uO2kwohwXQPxw/9OCxp05r5ghVBFSyioixx3gfkNQ==
 
 async@^2.6.2:
-  version "2.6.3"
-  resolved "https://registry.yarnpkg.com/async/-/async-2.6.3.tgz#d72625e2344a3656e3a3ad4fa749fa83299d82ff"
-  integrity sha512-zflvls11DCy+dQWzTW2dzuilv8Z5X/pjfmZOWba6TNIVDm+2UDaJmXSOXlasHKfNBs8oo3M0aT50fDEWfKZjXg==
+  version "2.6.4"
+  resolved "https://registry.yarnpkg.com/async/-/async-2.6.4.tgz#706b7ff6084664cd7eae713f6f965433b5504221"
+  integrity sha512-mzo5dfJYwAn29PeiJ0zvwTo04zj8HDJj0Mn8TD7sno7q12prdbnasKJHhkm2c1LgrhlJ0teaea8860oxi51mGA==
   dependencies:
     lodash "^4.17.14"
 
