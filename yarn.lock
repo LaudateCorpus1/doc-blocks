@@ -1730,34 +1730,36 @@
   integrity sha512-6nFkfkmSeV/rqSaS4oWHgmpnYw194f6hmWF5is6b0J1naJZoiD0NTc9AiUwPHvWsowkjuHErCZT1wa0jg+BLIA==
 
 "@doc-blocks/accessibility@link:components/Accessibility":
-  version "0.8.9"
+  version "0.8.15"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@doc-blocks/shield" "link:components/Shield"
     emotion "^10.0.27"
 
 "@doc-blocks/accordion@link:components/Accordion":
-  version "0.8.9"
+  version "0.8.15"
   dependencies:
     "@babel/runtime" "7.11.2"
     "@emotion/react" "11.4.1"
+    react-is "^16.8.1"
+    styled-components "5.3.0"
 
 "@doc-blocks/bundle-size@link:components/BundleSize":
-  version "0.8.9"
+  version "0.8.15"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@doc-blocks/shield" "link:components/Shield"
     emotion "^10.0.27"
 
 "@doc-blocks/design-spec@link:components/DesignSpec":
-  version "0.8.9"
+  version "0.8.15"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@doc-blocks/shield" "link:components/Shield"
     emotion "^10.0.27"
 
 "@doc-blocks/gallery@link:components/Gallery":
-  version "0.8.9"
+  version "0.8.15"
   dependencies:
     "@babel/runtime" "7.11.2"
     "@doc-blocks/design-spec" "link:components/DesignSpec"
@@ -1768,22 +1770,23 @@
     use-isomorphic-layout-effect "1.0.0"
 
 "@doc-blocks/guideline@link:components/Guideline":
-  version "0.8.9"
+  version "0.8.15"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@design-systems/utils" "2.17.5"
+    "@emotion/core" "^10.0.28"
     "@emotion/styled" "^10.0.27"
     emotion "^10.0.27"
 
 "@doc-blocks/intended-usage@link:components/IntendedUsage":
-  version "0.8.9"
+  version "0.8.15"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@design-systems/utils" "2.17.5"
     emotion "^10.0.27"
 
 "@doc-blocks/related-components@link:components/RelatedComponents":
-  version "0.8.9"
+  version "0.8.15"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@emotion/core" "^10.0.28"
@@ -1791,7 +1794,7 @@
     emotion "^10.0.27"
 
 "@doc-blocks/responsive-story@link:components/ResponsiveStory":
-  version "0.8.9"
+  version "0.8.15"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@design-systems/utils" "2.17.5"
@@ -1801,34 +1804,35 @@
     emotion "^10.0.27"
 
 "@doc-blocks/row@link:components/Row":
-  version "0.8.9"
+  version "0.8.15"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@design-systems/utils" "2.17.5"
     emotion "^10.0.27"
 
 "@doc-blocks/shield-row@link:components/ShieldRow":
-  version "0.8.9"
+  version "0.8.15"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@design-systems/utils" "2.17.5"
     emotion "^10.0.27"
 
 "@doc-blocks/shield@link:components/Shield":
-  version "0.8.9"
+  version "0.8.15"
   dependencies:
     "@babel/runtime" "^7.11.2"
     emotion "^10.0.27"
 
 "@doc-blocks/tabs@link:components/Tabs":
-  version "0.8.9"
+  version "0.8.15"
   dependencies:
     "@babel/runtime" "7.11.2"
     "@emotion/react" "11.4.0"
+    react-is "^16.8.1"
     styled-components "5.3.0"
 
 "@doc-blocks/version@link:components/Version":
-  version "0.8.9"
+  version "0.8.15"
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@doc-blocks/shield" "link:components/Shield"
@@ -20937,9 +20941,9 @@ typical@^5.2.0:
   integrity sha512-dvdQgNDNJo+8B2uBQoqdb11eUCE1JQXhvjC/CZtgvZseVd5TYMXnq0+vuUemXbd/Se29cTaUuPX3YIc2xgbvIg==
 
 ua-parser-js@^0.7.18, ua-parser-js@^0.7.21:
-  version "0.7.28"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
-  integrity sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==
+  version "0.7.33"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.33.tgz#1d04acb4ccef9293df6f70f2c3d22f3030d8b532"
+  integrity sha512-s8ax/CeZdK9R/56Sui0WM6y9OFREJarMRHqLB2EwkovemBxNQ+Bqu8GAsUnVcXKgphb++ghr/B2BZx4mahujPw==
 
 uglify-js@^3.1.4:
   version "3.14.2"
